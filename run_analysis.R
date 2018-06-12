@@ -27,7 +27,7 @@ subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
 features <- read.table('./data/UCI HAR Dataset/features.txt')
 
 # Reading activity labels:
-activity_labels = read.table('./data/UCI HAR Dataset/activity_labels.txt')
+activity_labels <- read.table('./data/UCI HAR Dataset/activity_labels.txt')
 
 # 1.2 Assigning column names:
 colnames(x_train) <- features[,2] 
@@ -55,7 +55,7 @@ colNames<-colnames(merge_data)
 # 2.2 Create vector for defining ID, mean and standard deviation:
 Mean_and_Std<- (grepl("activityId", colNames) | grepl("subjectId", colNames) |grepl("mean", colNames)|grepl("std", colNames))
 
-# 2.3 Making nessesary subset from setAllInOne:
+# 2.3 Making nessesary subset from merge_data:
 setForMeanAndStd <- merge_data[ , Mean_and_Std == TRUE]
 
 # 3. Using descriptive activity names to name the activities in the data set:
