@@ -4,7 +4,7 @@ This repository contains the R code and documentation files for the Data Science
 
 ## Files
 
-###CodeBook.md
+### CodeBook.md
 This file describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
 ### run_analysis.R 
