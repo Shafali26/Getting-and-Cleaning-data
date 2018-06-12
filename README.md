@@ -3,6 +3,7 @@
 This repository contains the R code and documentation files for the Data Science's course: "Getting and Cleaning data".
 
 ## Files
+
 ###CodeBook.md
 This file describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
